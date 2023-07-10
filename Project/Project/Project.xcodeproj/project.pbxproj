@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0493C6D12A568A2B002DFEEF /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6D02A568A2B002DFEEF /* DiaryViewController.swift */; };
+		0493C6D32A56AF5A002DFEEF /* MealsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6D22A56AF5A002DFEEF /* MealsTableViewCell.swift */; };
+		0493C6D52A56B39B002DFEEF /* FindFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6D42A56B39B002DFEEF /* FindFoodViewController.swift */; };
+		0493C6D72A5833F9002DFEEF /* FindProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6D62A5833F9002DFEEF /* FindProductTableViewCell.swift */; };
+		0493C6D92A584A1C002DFEEF /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6D82A584A1C002DFEEF /* AddFoodViewController.swift */; };
+		0493C6DB2A585C53002DFEEF /* AddNewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6DA2A585C53002DFEEF /* AddNewProductViewController.swift */; };
+		0493C6DD2A587D54002DFEEF /* CalloriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6DC2A587D54002DFEEF /* CalloriesTableViewCell.swift */; };
+		0493C6DF2A587DC6002DFEEF /* OtherSpecificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6DE2A587DC6002DFEEF /* OtherSpecificationsTableViewCell.swift */; };
+		0493C6E52A58FF62002DFEEF /* InformationAboutMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6E42A58FF62002DFEEF /* InformationAboutMealViewController.swift */; };
+		0493C6E72A590268002DFEEF /* InformationAboutMealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6E62A590268002DFEEF /* InformationAboutMealTableViewCell.swift */; };
+		0493C6E92A5B2E13002DFEEF /* FindFoodViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493C6E82A5B2E13002DFEEF /* FindFoodViewControllerDelegate.swift */; };
 		AA2F9C112A54D62B00C19BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F9C102A54D62B00C19BA3 /* AppDelegate.swift */; };
 		AA2F9C132A54D62B00C19BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F9C122A54D62B00C19BA3 /* SceneDelegate.swift */; };
 		AA2F9C152A54D62B00C19BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F9C142A54D62B00C19BA3 /* ViewController.swift */; };
@@ -20,7 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA2F9C0D2A54D62B00C19BA3 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0493C6D02A568A2B002DFEEF /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		0493C6D22A56AF5A002DFEEF /* MealsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewCell.swift; sourceTree = "<group>"; };
+		0493C6D42A56B39B002DFEEF /* FindFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodViewController.swift; sourceTree = "<group>"; };
+		0493C6D62A5833F9002DFEEF /* FindProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindProductTableViewCell.swift; sourceTree = "<group>"; };
+		0493C6D82A584A1C002DFEEF /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		0493C6DA2A585C53002DFEEF /* AddNewProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewProductViewController.swift; sourceTree = "<group>"; };
+		0493C6DC2A587D54002DFEEF /* CalloriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloriesTableViewCell.swift; sourceTree = "<group>"; };
+		0493C6DE2A587DC6002DFEEF /* OtherSpecificationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSpecificationsTableViewCell.swift; sourceTree = "<group>"; };
+		0493C6E42A58FF62002DFEEF /* InformationAboutMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutMealViewController.swift; sourceTree = "<group>"; };
+		0493C6E62A590268002DFEEF /* InformationAboutMealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationAboutMealTableViewCell.swift; sourceTree = "<group>"; };
+		0493C6E82A5B2E13002DFEEF /* FindFoodViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFoodViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0493C76A2A5BF178002DFEEF /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Project.app; path = "/Users/mac/Documents/GitHub/SummerPracticeMobileApp/Project/Project/build/Debug-iphoneos/Project.app"; sourceTree = "<absolute>"; };
 		AA2F9C102A54D62B00C19BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA2F9C122A54D62B00C19BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AA2F9C142A54D62B00C19BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,16 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				AA2F9C0F2A54D62B00C19BA3 /* Project */,
-				AA2F9C0E2A54D62B00C19BA3 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		AA2F9C0E2A54D62B00C19BA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA2F9C0D2A54D62B00C19BA3 /* Project.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AA2F9C0F2A54D62B00C19BA3 /* Project */ = {
@@ -99,6 +112,17 @@
 			isa = PBXGroup;
 			children = (
 				AA2F9C272A54D87500C19BA3 /* MainPage.storyboard */,
+				0493C6D02A568A2B002DFEEF /* DiaryViewController.swift */,
+				0493C6D22A56AF5A002DFEEF /* MealsTableViewCell.swift */,
+				0493C6E42A58FF62002DFEEF /* InformationAboutMealViewController.swift */,
+				0493C6E62A590268002DFEEF /* InformationAboutMealTableViewCell.swift */,
+				0493C6D42A56B39B002DFEEF /* FindFoodViewController.swift */,
+				0493C6E82A5B2E13002DFEEF /* FindFoodViewControllerDelegate.swift */,
+				0493C6D62A5833F9002DFEEF /* FindProductTableViewCell.swift */,
+				0493C6DA2A585C53002DFEEF /* AddNewProductViewController.swift */,
+				0493C6DC2A587D54002DFEEF /* CalloriesTableViewCell.swift */,
+				0493C6DE2A587DC6002DFEEF /* OtherSpecificationsTableViewCell.swift */,
+				0493C6D82A584A1C002DFEEF /* AddFoodViewController.swift */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -134,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2F9C212A54D62C00C19BA3 /* Build configuration list for PBXNativeTarget "Project" */;
 			buildPhases = (
+				41730B025A67AA18B92FE0A3 /* [CP] Check Pods Manifest.lock */,
 				AA2F9C092A54D62B00C19BA3 /* Sources */,
 				AA2F9C0A2A54D62B00C19BA3 /* Frameworks */,
 				AA2F9C0B2A54D62B00C19BA3 /* Resources */,
+				E495758A7006EAC354CABD90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,7 +170,7 @@
 			);
 			name = Project;
 			productName = Project;
-			productReference = AA2F9C0D2A54D62B00C19BA3 /* Project.app */;
+			productReference = 0493C76A2A5BF178002DFEEF /* Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +197,7 @@
 				Base,
 			);
 			mainGroup = AA2F9C042A54D62B00C19BA3;
-			productRefGroup = AA2F9C0E2A54D62B00C19BA3 /* Products */;
+			productRefGroup = AA2F9C042A54D62B00C19BA3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -197,14 +223,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41730B025A67AA18B92FE0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E495758A7006EAC354CABD90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA2F9C092A54D62B00C19BA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0493C6D12A568A2B002DFEEF /* DiaryViewController.swift in Sources */,
+				0493C6E52A58FF62002DFEEF /* InformationAboutMealViewController.swift in Sources */,
 				AA2F9C152A54D62B00C19BA3 /* ViewController.swift in Sources */,
+				0493C6DB2A585C53002DFEEF /* AddNewProductViewController.swift in Sources */,
+				0493C6E92A5B2E13002DFEEF /* FindFoodViewControllerDelegate.swift in Sources */,
 				AA2F9C112A54D62B00C19BA3 /* AppDelegate.swift in Sources */,
+				0493C6DD2A587D54002DFEEF /* CalloriesTableViewCell.swift in Sources */,
+				0493C6D72A5833F9002DFEEF /* FindProductTableViewCell.swift in Sources */,
+				0493C6E72A590268002DFEEF /* InformationAboutMealTableViewCell.swift in Sources */,
 				AA2F9C132A54D62B00C19BA3 /* SceneDelegate.swift in Sources */,
+				0493C6DF2A587DC6002DFEEF /* OtherSpecificationsTableViewCell.swift in Sources */,
+				0493C6D52A56B39B002DFEEF /* FindFoodViewController.swift in Sources */,
+				0493C6D92A584A1C002DFEEF /* AddFoodViewController.swift in Sources */,
+				0493C6D32A56AF5A002DFEEF /* MealsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
