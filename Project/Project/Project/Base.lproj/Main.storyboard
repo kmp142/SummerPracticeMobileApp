@@ -2,14 +2,15 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xJ4-u8-Eo1">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="tbP-lV-FfP">
             <objects>
-                <tabBarController id="xJ4-u8-Eo1" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBarcontroller" id="xJ4-u8-Eo1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Xxd-h4-9lB"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tM0-DA-G2m">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -31,6 +32,7 @@
             <objects>
                 <viewControllerPlaceholder storyboardName="MainPage" id="Vkd-eh-2sa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="oOG-f9-ri5"/>
+                    <navigationItem key="navigationItem" id="04J-WL-nhx"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uG7-Ak-4Lo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
