@@ -17,6 +17,9 @@
 		AA2F9C2B2A54D96700C19BA3 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F9C2A2A54D96700C19BA3 /* UserProfile.storyboard */; };
 		AA2F9C332A54E25E00C19BA3 /* WaterPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F9C322A54E25E00C19BA3 /* WaterPage.storyboard */; };
 		AA2F9C352A54E27900C19BA3 /* RecipesList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F9C342A54E27900C19BA3 /* RecipesList.storyboard */; };
+		AA42496D2A55BA790051D5E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42496C2A55BA790051D5E3 /* MainViewController.swift */; };
+		AA91057B2A58794400323571 /* ALProgressView in Frameworks */ = {isa = PBXBuildFile; productRef = AA91057A2A58794400323571 /* ALProgressView */; };
+		AAB04AF92A5D443400E3EFA4 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB04AF82A5D443400E3EFA4 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,8 @@
 		AA2F9C2A2A54D96700C19BA3 /* UserProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
 		AA2F9C322A54E25E00C19BA3 /* WaterPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WaterPage.storyboard; sourceTree = "<group>"; };
 		AA2F9C342A54E27900C19BA3 /* RecipesList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipesList.storyboard; sourceTree = "<group>"; };
+		AA42496C2A55BA790051D5E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AAB04AF82A5D443400E3EFA4 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA91057B2A58794400323571 /* ALProgressView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +120,7 @@
 		AA2F9C2C2A54D97700C19BA3 /* WaterPage */ = {
 			isa = PBXGroup;
 			children = (
+				AA42496B2A55BA4F0051D5E3 /* ViewControllers */,
 				AA2F9C322A54E25E00C19BA3 /* WaterPage.storyboard */,
 			);
 			path = WaterPage;
@@ -125,6 +132,15 @@
 				AA2F9C342A54E27900C19BA3 /* RecipesList.storyboard */,
 			);
 			path = RecipesList;
+			sourceTree = "<group>";
+		};
+		AA42496B2A55BA4F0051D5E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA42496C2A55BA790051D5E3 /* MainViewController.swift */,
+				AAB04AF82A5D443400E3EFA4 /* NewViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +159,9 @@
 			dependencies = (
 			);
 			name = Project;
+			packageProductDependencies = (
+				AA91057A2A58794400323571 /* ALProgressView */,
+			);
 			productName = Project;
 			productReference = AA2F9C0D2A54D62B00C19BA3 /* Project.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +190,9 @@
 				Base,
 			);
 			mainGroup = AA2F9C042A54D62B00C19BA3;
+			packageReferences = (
+				AA9105792A58794400323571 /* XCRemoteSwiftPackageReference "ALProgressView" */,
+			);
 			productRefGroup = AA2F9C0E2A54D62B00C19BA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,7 +226,9 @@
 			files = (
 				AA2F9C152A54D62B00C19BA3 /* ViewController.swift in Sources */,
 				AA2F9C112A54D62B00C19BA3 /* AppDelegate.swift in Sources */,
+				AAB04AF92A5D443400E3EFA4 /* NewViewController.swift in Sources */,
 				AA2F9C132A54D62B00C19BA3 /* SceneDelegate.swift in Sources */,
+				AA42496D2A55BA790051D5E3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA9105792A58794400323571 /* XCRemoteSwiftPackageReference "ALProgressView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alxrguz/ALProgressView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA91057A2A58794400323571 /* ALProgressView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA9105792A58794400323571 /* XCRemoteSwiftPackageReference "ALProgressView" */;
+			productName = ALProgressView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA2F9C052A54D62B00C19BA3 /* Project object */;
 }
